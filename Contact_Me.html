@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
  <meta charset="utf-8" />
   <title>Contact</title>
@@ -27,21 +27,24 @@
     <br><br><br><br></br>
     <h1 class="text-center">Contact Me</h1> <!--https://www.w3schools.com/bootstrap4/bootstrap_typography.asp#gsc.tab=0-->
     <br>
-    <form action="/action_page.php" class="was-validated"></form>
-</div class="row">
-<div class="col" style="color:aliceblue">
+   
+    <div class="container-fluid">
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-10 col-md-8 col-lg-6"> <!--https://azmind.com/bootstrap-align-center/--> <!--Position the form in the center-->
+    <form action="/action_page.php" class="was-validated">
     <label for="name">Your Name:</label>
-    <input type="Name" class="form-control" placeholder="Eg. John Smith" name="uname" required> <br>
+    <input type="Name" class="form-control" placeholder="Eg. John Smith" name="name" required> <br>
     <label for="email">Your Email:</label>
-    <input type="email" class="form-control" placeholder="Enter email" id="email"> <br>
+    <input type="email" class="form-control" placeholder="Enter email" id="email" required> <br>
     <label for="telephone#">Your Telephone #:</label>
-    <input type="tel" class="form-control" placeholder="Enter your telephone#" id="tel"> <br>
+    <input type="tel" class="form-control" placeholder="Enter your telephone#" id="tel" required> <br>
     <label for="name">Your Inquiry:</label>
-    <input type="Name" class="form-control" placeholder="How can I help you?"> <br>
+    <input type="Name" class="form-control" placeholder="How can I help you?" required> <br>
     <button type="submit" class="btn btn-primary">Submit</button>
+</form><!--https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_form_validation_was&stacked=h-->
 </div>
 </div> 
-</form><!--https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_form_validation_was&stacked=h-->
+
         
 </body>
 </html>
