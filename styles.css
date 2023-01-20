@@ -4,11 +4,13 @@ html {
 div {
     background-color: black;
   }
-  body {
+body {
     background-color: hsl(0, 0%, 0%);
   }
 h1 {
     color: rgb(91, 72, 173);
   }
-label {color:rgb(91, 72, 173); 
+label {
+    color:rgb(91, 72, 173); 
   }
+
