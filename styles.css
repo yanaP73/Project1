@@ -26,3 +26,16 @@ p {
   .nav.navbar.justify-content-end li a {
     color:rgb(168, 158, 214);
   }
+  .row {
+    animation: transitionIn 0.75s;
+  }
+  @keyframes transitionIn {
+    from {
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+    to {
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
