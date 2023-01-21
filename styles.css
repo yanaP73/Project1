@@ -19,3 +19,10 @@ p {
   font-family: Courier New;
   font-size: x-large;
   }
+  .nav {
+    font-family:sans-serif;
+    font-size: large;
+  }
+  .nav.navbar.justify-content-end li a {
+    color:rgb(168, 158, 214);
+  }
