@@ -27,7 +27,7 @@ p {
     color:rgb(168, 158, 214);
   }
   .row {
-    animation: transitionIn 0.75s;
+    animation: transitionIn 0.90s;
   }
   @keyframes transitionIn {
     from {
