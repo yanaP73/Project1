@@ -62,4 +62,38 @@ p {
       width: 60%;
     }
   }
-  
+  .separator--line1{
+    border: 0;
+    border-bottom: 3px solid
+    rgb(168, 158, 214);
+    width: 0;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation: separator-width 1s ease-out forwards;
+    animation: separator-width 1s ease-out forwards;
+  }
+  @-webkit-keyframes separator-width{
+    0%{
+      width: 0;
+    }
+    100%{
+      width: 100%;
+    }
+  }
+  .separator--line2{
+    border: 0;
+    border-bottom: 3px solid
+    rgb(168, 158, 214);
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation: separator-width 1s ease-out forwards;
+    animation: separator-width 1s ease-out forwards;
+  }
+  @-webkit-keyframes separator-width{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 60%;
+    }
+  }
