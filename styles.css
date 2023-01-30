@@ -38,6 +38,15 @@ p {
   .row {
     animation: transitionIn 0.90s;
   }
+  footer{
+    text-align: center;
+    padding: 2px;
+    background-color: black;
+    color: rgb(168, 158, 214);
+  }
+  footer p {
+    font-size: 15px;
+  }
   @keyframes transitionIn {
     from {
       opacity: 0;
