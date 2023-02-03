@@ -7,7 +7,7 @@ It allows the user to get in touch with ease, and it is visually pleasing.
 #### Features
 
 <ul>
-<li><h5> Feature 1</h5> – fixed nav on desktop --- ease of navigation</li>
+<li><h5>Feature 1</h5> – fixed nav on desktop --- ease of navigation</li>
 <li><h5>Feature 2</h5> – Large font --- ease of navigation</li>
 <li><h5>Feature 3</h5> – The Contact Me Form is not yet fully functional, but will connect to the Yana’s email.</li>
 
